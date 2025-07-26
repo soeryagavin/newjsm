@@ -71,15 +71,13 @@ const CreditSimulation = () => {
     const monthlyPayment = (principal * monthlyRate * Math.pow(1 + monthlyRate, numPayments)) / 
                           (Math.pow(1 + monthlyRate, numPayments) - 1);
 
-    const totalPayment = monthlyPayment * numPayments;
+    const monthlyPayment * numPayments;
     const totalInterest = totalPayment - principal;
     const insuranceCost = (carPrice * selectedLeasing.insurance / 100) * (tenure / 12);
 
     const totalCosts = {
       monthlyPayment: Math.round(monthlyPayment),
-      totalPayment: Math.round(totalPayment + selectedLeasing.adminFee + insuranceCost),
       totalInterest: Math.round(totalInterest),
-      adminFee: selectedLeasing.adminFee,
       insuranceCost: Math.round(insuranceCost),
       principal: principal
     };
