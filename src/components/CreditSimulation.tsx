@@ -239,11 +239,6 @@ const CreditSimulation = () => {
                         <span className="text-muted-foreground">Asuransi</span>
                         <span className="font-medium">{formatPrice(results.insuranceCost)}</span>
                       </div>
-                      
-                      <div className="flex justify-between items-center py-3 bg-muted rounded-lg px-3 font-semibold">
-                        <span>Total Pembayaran</span>
-                        <span className="text-primary">{formatPrice(results.totalPayment)}</span>
-                      </div>
                     </div>
                   </div>
 
