@@ -19,28 +19,24 @@ const CreditSimulation = () => {
       id: "bcaf", 
       name: "BCAF (BCA Finance)", 
       interestRate: 7.5, 
-      adminFee: 2500000,
       insurance: 3.5
     },
     { 
       id: "muf", 
       name: "MUF (Mandiri Utama Finance)", 
       interestRate: 8.0, 
-      adminFee: 2000000,
       insurance: 3.2
     },
     { 
       id: "oto", 
       name: "OTO Finance", 
       interestRate: 8.5, 
-      adminFee: 1500000,
       insurance: 3.8
     },
     { 
       id: "adira", 
       name: "Adira Finance", 
       interestRate: 8.2, 
-      adminFee: 2200000,
       insurance: 3.6
     }
   ];
