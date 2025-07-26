@@ -231,11 +231,6 @@ const CreditSimulation = () => {
                       </div>
                       
                       <div className="flex justify-between items-center py-2 border-b border-border">
-                        <span className="text-muted-foreground">Biaya Admin</span>
-                        <span className="font-medium">{formatPrice(results.adminFee)}</span>
-                      </div>
-                      
-                      <div className="flex justify-between items-center py-2 border-b border-border">
                         <span className="text-muted-foreground">Asuransi</span>
                         <span className="font-medium">{formatPrice(results.insuranceCost)}</span>
                       </div>
