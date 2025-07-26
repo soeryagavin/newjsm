@@ -8,8 +8,8 @@ import { Badge } from "@/components/ui/badge";
 import { Calculator, CreditCard, Building, Percent, Clock } from "lucide-react";
 
 const CreditSimulation = () => {
-  const [carPrice, setCarPrice] = useState<number>(165000000);
-  const [downPayment, setDownPayment] = useState<number>(25000000);
+  const [carPrice, setCarPrice] = useState<number>(0);
+  const [downPayment, setDownPayment] = useState<number>(0);
   const [leasingCompany, setLeasingCompany] = useState<string>("");
   const [tenure, setTenure] = useState<number>(36);
   const [results, setResults] = useState<any>(null);
